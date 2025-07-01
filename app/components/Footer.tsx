@@ -44,6 +44,7 @@ const Footer = () => {
   return (
     <div className={`w-full relative z-0`}>
       <footer className="bg-[#2E2B28] text-black p-10 mt-12">
+        <div className="max-w-6xl mx-auto">
         <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:ml-30">
           <div className="mb-4 lg:mb-0">
             <Image
@@ -97,6 +98,7 @@ const Footer = () => {
               Terms
             </a>
           </div>
+        </div>
         </div>
       </footer>
     </div>

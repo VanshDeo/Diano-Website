@@ -46,9 +46,10 @@ const Testimonial = () => {
       <h1 className={`${playFair.className} text-5xl text-[#2E2B28] text-center py-8`}>Testimonial</h1>
       <p className={`${openSans.className} text-lg font-light text-[#2E2B28CC] text-center`}>Trusted by the World&apos;s Finest Designers</p>
 
-      <div className='flex flex-col md:flex-row gap-5 max-w-6xl mx-auto mt-5 items-center'>
+      <div className='flex flex-col md:flex-row gap-5 max-w-4xl mx-auto mt-5 items-center'>
        {testimonials.map((item, index) => (
     <div key={index} className='border border-[#D6C5A066] rounded-xl w-1/2 mb-15'>
+        <div className='flex justify-center lg:justify-none'>
         <Image 
         src={item.src}
         alt="testimonial 1"
@@ -56,7 +57,8 @@ const Testimonial = () => {
         height={100}
         className='rounded-full ml-10 mt-10 w-24 h-24 object-cover'
         />
-        <p className={`p-10 ${mulish.className} text-[#2E2B2880]`}>{item.desc}</p>
+        </div>
+        <p className={`p-10 ${mulish.className} text-[#2E2B2880] text-center lg:text-left`}>{item.desc}</p>
         </div>
     ))}
       </div>

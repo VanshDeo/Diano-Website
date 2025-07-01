@@ -49,7 +49,7 @@ const HeroSection = () => {
         </div>
 
         <div className='relative lg:top-35 lg:right-35 '>
-            <p className={`${playFair.className} text-5xl text-[#2E2B28E8]`} style={{fontWeight: 400}}>Unseen Beauty</p>
+            <p className={`${playFair.className} text-5xl text-[#2E2B28E8] text-center`} style={{fontWeight: 400}}>Unseen Beauty</p>
             <p className={`${openSans.className} text-lg font-light mt-15 mb-10 text-center lg:text-left`}>Explore DIANO&apos;s private collection of rare gemstones and elite jewellery — presented through curated AI-generated visuals for connoisseurs, collectors, and design houses.</p>
             <button className={`bg-[#D6C5A0] px-5 py-2 rounded-sm shadow-lg text-white cursor-pointer hover:scale-105 active:scale-95 transition-all duration-300`}>Explore the Collection</button>
         </div>

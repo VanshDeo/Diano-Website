@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import RingImage from "../assets/rambus-ring.jpg"; // Replace with actual path
 import React from "react";
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import { Playfair_Display } from "next/font/google";
 
 const playFair = Playfair_Display({
@@ -20,8 +20,8 @@ const playFair = Playfair_Display({
 const ContactInfo = () => {
   return (
     <section className="relative w-full bg-white px-4 md:px-24 py-8">
-      <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-5 left-150" />
-            <Image src={StarIcon} alt="star" width={25} height={25} className="absolute bottom-30 left-10" />
+      {/* <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-5 left-150" />
+            <Image src={StarIcon} alt="star" width={25} height={25} className="absolute bottom-30 left-10" /> */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12 min-h-[520px]">
         {/* Left Content */}
         <div className="flex-1 h-full flex flex-col justify-center">

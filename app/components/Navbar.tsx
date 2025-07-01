@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-white shadow-md sticky top-0 z-50">
-      <div className={`mx-auto flex gap-60 p-4 justify-around`}>
+      <div className={`max-w-6xl mx-auto flex gap-60 p-4 justify-around`}>
         {/* Logo Section */}
         <Image
           src="/Diano.svg"

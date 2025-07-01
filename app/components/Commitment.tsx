@@ -22,7 +22,7 @@ const Commitment = () => {
       <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-590 left-160" />
       <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-650 left-60" /> */}
       {/* Info Section */}
-      <div className='max-w-xl mx-auto mt-20'>
+      <div className='max-w-xl mx-auto mt-20 text-center md:text-left'>
         <h1 className={`${playFair.className} text-[#2E2B28] text-5xl text-center md:text-left`}>A Commitment to Craft and Consciousness</h1>
         <p className={`${mulish.className} text-lg text-[#2E2B28CC] font-light mt-8 mb-8 text-center md:text-left`}>Each DIANO piece is ethically sourced, responsibly cut, and meticulously finished. From mine to masterpiece, our process is transparent and thoughtful.</p>
 
@@ -30,7 +30,7 @@ const Commitment = () => {
       </div>
 
       {/* Image Section */}
-      <div>
+      <div className='flex items-center justify-center'>
         <Image 
         src={gem8}
         alt="Commitment Gem"

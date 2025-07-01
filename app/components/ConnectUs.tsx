@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import RingImage from "../assets/hand_ring-1.jpg";
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import { Playfair_Display,Inter } from "next/font/google";
 
 const playFair = Playfair_Display({
@@ -21,8 +21,8 @@ const ContactForm = () => {
     <section className="relative w-full bg-[#ffffff] pt-20 pb-8 px-4 md:px-24">
 
       {/* Decorative Stars */}
-      <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-10 right-50" />
-      <Image src={StarIcon} alt="star" width={25} height={25} className="absolute bottom-20 right-10" />
+      {/* <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-10 right-50" />
+      <Image src={StarIcon} alt="star" width={25} height={25} className="absolute bottom-20 right-10" /> */}
 
       {/* Section Title */}
       <div className="max-w-7xl mx-auto mb-12">
