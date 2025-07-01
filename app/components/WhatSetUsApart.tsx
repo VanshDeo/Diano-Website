@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MiddleImage from "../assets/bangles.jpg";
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import { FiVideo, FiLock, FiPenTool, FiSettings } from "react-icons/fi";
 import { Playfair_Display,Inter } from "next/font/google";
 
@@ -41,11 +41,11 @@ const WhatSetsUsApart = () => {
   return (
     <section className="relative w-full bg-[#ffffff] py-20 px-4 md:px-24 text-[#2E2B28] font-sans overflow-hidden">
       {/* Decorative Stars */}
-      <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-10 left-60" />
+      {/* <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-10 left-60" />
       <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-30 right-70" />
       <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-100 right-10" />
       <Image src={StarIcon} alt="star" width={24} height={24} className="absolute bottom-100 left-10" />
-      <Image src={StarIcon} alt="star" width={23} height={23} className="absolute bottom-10 left-100" />
+      <Image src={StarIcon} alt="star" width={23} height={23} className="absolute bottom-10 left-100" /> */}
       
 
       <div className="text-center mb-12">

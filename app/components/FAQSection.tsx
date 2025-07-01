@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { FaPlus, FaTimes } from "react-icons/fa";
-import Image from "next/image";
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import { Playfair_Display,Inter } from "next/font/google";
 
 const playFair = Playfair_Display({
@@ -66,8 +65,8 @@ const FAQSection = () => {
 
   return (
     <section className="relative w-full bg-white py-20 px-4 md:px-24 max-w-7xl mx-auto md:mb-5">
-        <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-20 right-50" />
-      <Image src={StarIcon} alt="star" width={18} height={18} className="absolute bottom-10 left-70" />
+        {/* <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-20 right-50" />
+      <Image src={StarIcon} alt="star" width={18} height={18} className="absolute bottom-10 left-70" /> */}
       <h2 className={`text-5xl text-center text-[#333] mb-12 ${playFair.className}`}>
         Frequently Asked Questions
       </h2>

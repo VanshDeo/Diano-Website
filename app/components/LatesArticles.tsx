@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import Image1 from "../assets/round-ring.jpg";
 import Image2 from "../assets/diamond-ring.jpg";
 import Image3 from "../assets/plain-ring.jpg";
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import { Playfair_Display,Inter } from "next/font/google";
 
 const playFair = Playfair_Display({
@@ -49,8 +49,8 @@ const LatestArticles: React.FC = () => {
   return (
     <section className="relative w-full py-20 px-4 md:px-16 bg-[#ffffff] text-center overflow-hidden">
       {/* Decorative Stars */}
-      <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-7 right-40" />
-      <Image src={StarIcon} alt="star" width={22} height={22} className="absolute bottom-7 left-20" />
+      {/* <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-7 right-40" />
+      <Image src={StarIcon} alt="star" width={22} height={22} className="absolute bottom-7 left-20" /> */}
 
       {/* Title */}
       <h2 className={`text-5xl font-normal text-[#2E2B28] mb-12 ${playFair.className}`}>Latest Articles</h2>

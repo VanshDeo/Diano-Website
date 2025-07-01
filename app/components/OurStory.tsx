@@ -1,7 +1,7 @@
 import Image from "next/image";
 import PendantImage from "../assets/red_daimond.jpg";
 import ModelImage from "../assets/women_with_red_diamond.jpg";
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import { Playfair_Display,Inter } from "next/font/google";
 
 const playFair = Playfair_Display({
@@ -18,11 +18,11 @@ const OurStory = () => {
   return (
     <section className="relative w-full bg-white px-4 md:px-8 lg:px-24 py-16 font-sans text-[#2E2B28] overflow-hidden">
       {/* Decorative Stars */}
-      <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-20 right-60" />
+      {/* <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-20 right-60" />
       <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-200 left-100" />
       <Image src={StarIcon} alt="star" width={25} height={25} className="absolute top-100 right-10" />
       <Image src={StarIcon} alt="star" width={25} height={25} className="absolute bottom-30 left-100" />
-      <Image src={StarIcon} alt="star" width={25} height={25} className="absolute bottom-5 left-60" />
+      <Image src={StarIcon} alt="star" width={25} height={25} className="absolute bottom-5 left-60" /> */}
 
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
