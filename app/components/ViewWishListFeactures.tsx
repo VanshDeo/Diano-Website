@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import React from "react";
 import { FiAward, FiShield, FiTruck, FiEye } from "react-icons/fi";
 // import StarIcon from "../assets/star.png";
