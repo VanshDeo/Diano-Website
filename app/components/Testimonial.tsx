@@ -1,7 +1,7 @@
 import React from 'react'
 import { Playfair_Display,Open_Sans,Mulish } from "next/font/google";
 import Image from 'next/image';
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import test1 from "../assets/test1.jpg";
 import test2 from "../assets/test2.jpg";
 import test3 from "../assets/test3.jpg";

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Playfair_Display,Mulish } from "next/font/google";
 import Image from 'next/image';
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import gem8 from "../assets/gem8.jpg";
+import Link from 'next/link';
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
@@ -25,7 +26,7 @@ const Commitment = () => {
         <h1 className={`${playFair.className} text-[#2E2B28] text-5xl text-center md:text-left`}>A Commitment to Craft and Consciousness</h1>
         <p className={`${mulish.className} text-lg text-[#2E2B28CC] font-light mt-8 mb-8 text-center md:text-left`}>Each DIANO piece is ethically sourced, responsibly cut, and meticulously finished. From mine to masterpiece, our process is transparent and thoughtful.</p>
 
-        <a href="/" className='underline'>Learn More About Our Process</a>
+        <Link href="/" className='underline'>Learn More About Our Process</Link>
       </div>
 
       {/* Image Section */}

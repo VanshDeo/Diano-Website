@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import gem3 from "../assets/gem3.jpg";
-import StarIcon from "../assets/star.png";
+// import StarIcon from "../assets/star.png";
 import { Playfair_Display,Open_Sans } from "next/font/google";
 
 const playFair = Playfair_Display({
