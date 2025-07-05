@@ -42,16 +42,15 @@ const socialLinks = [
 ];
 
 // Main Footer Component
-const Footer = ({ value }: { value: string }) => {
+const Footer = () => {
 
     const pathname = usePathname();
-    console.log("Current Pathname:", pathname);
 
   return (
     <div className={`w-full relative z-0`}>
       <footer
         className={`bg-[#2E2B28] text-black p-10 ${
-          pathname === "/Contact" ? "mt-0" : "mt-12"
+          pathname === "/Faq" ? "mt-0" : "mt-12"
         }`}
       >
         <div className="max-w-6xl mx-auto">

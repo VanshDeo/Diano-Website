@@ -1,7 +1,6 @@
 import Image from "next/image";
 import MiddleImage from "../assets/bangles.jpg";
 // import StarIcon from "../assets/star.png";
-import { FiVideo, FiLock, FiPenTool, FiSettings } from "react-icons/fi";
 import { Playfair_Display,Inter } from "next/font/google";
 
 const playFair = Playfair_Display({
