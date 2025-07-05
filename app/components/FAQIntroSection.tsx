@@ -21,7 +21,7 @@ const FAQIntroSection = () => {
         {/* Left Content */}
         <div>
           <h2
-  className="text-5xl leading-tight font-normal"
+  className="text-5xl leading-tight font-normal text-center md:text-left"
   style={{
     fontFamily: "Playfair Display",
     color: "rgba(46, 43, 40, 0.9)",
@@ -33,7 +33,7 @@ const FAQIntroSection = () => {
 </h2>
 
         <p
-  className="mt-6 text-lg font-light text-[#2E2B28CC]"
+  className="mt-6 text-lg font-light text-[#2E2B28CC] text-center md:text-left"
   style={{
     fontFamily: "Inter",
     fontWeight: 300,
