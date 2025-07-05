@@ -10,9 +10,6 @@ const page = () => {
     <>
     <ConnectUs />
     <ContactInfo />
-    <ViewWishlistFeatures/>
-    <FAQSection />
-    <JewelryShowcase />
     </>
   )
 }

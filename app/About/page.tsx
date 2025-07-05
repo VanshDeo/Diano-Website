@@ -15,9 +15,6 @@ const page = () => {
     <OurStory />
     <Discover />
     <WhatSetsUsApart />
-    <ViewOurCollections/>
-    <ViewWishlistFeatures />
-    <LatestArticles />
     <FAQSection />
     <DianoBanner />
     </>

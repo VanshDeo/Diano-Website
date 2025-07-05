@@ -33,12 +33,12 @@ const DiscoverLuxury = () => {
         </div>
 
         {/* Right Content */}
-        <div className="flex flex-col gap-6 max-w-xl text-left">
-          <h2 className={`text-3xl md:text-5xl font-normal ${playFair.className}`}>
+        <div className="flex flex-col gap-6 max-w-2xl text-left items-center lg:items-start">
+          <h2 className={`text-3xl md:text-5xl font-normal text-center lg:text-left ${playFair.className}`}>
             Discover luxury in the details.
           </h2>
-          <p className={`text-sm md:text-base text-[#2E2B28CC] ${inter.className} font-light`}>
-            From everyday elegance to collector’s editions, our handcrafted pieces are shaped by heritage and refined by vision.
+          <p className={`text-sm md:text-base text-[#2E2B28CC] text-center lg:text-left ${inter.className} font-light`}>
+            From everyday elegance to collector&apos;s editions, our handcrafted pieces are shaped by heritage and refined by vision.
           </p>
           <button className="w-max border border-[#2E2B28] px-5 py-2 text-sm hover:bg-[#2E2B28] hover:text-white transition">
             Explore the Collection

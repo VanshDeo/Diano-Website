@@ -21,26 +21,21 @@ const Gems = [
     {
         src: gem4,
         alt: "GEM 4",
-        name: "PINK DIAMOND",
-        price: "$999"
     },
     {
         src: gem5,
         alt: "GEM 5",
-        name: "PINK DIAMOND",
-        price: "$999"
+        
     },
     {
         src: gem6,
         alt: "GEM 6",
-        name: "PINK DIAMOND",
-        price: "$999"
+        
     },
     {
         src: gem7,
         alt: "GEM 7",
-        name: "PINK DIAMOND",
-        price: "$999"
+        
     }
 ]
 
@@ -61,7 +56,7 @@ const Collections = () => {
               height={300}
               className='w-full object-cover'
             />
-            <p className={`${openSans.className} text-center font-light text-md text-[#2E2B28CC]`}>{gem.name} <br /> {gem.price}</p>
+            
           </div>
         ))}
       </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PendantImage from "../assets/red_daimond.jpg";
+import PendantImage from "../assets/PendantImage.jpg";
 import ModelImage from "../assets/women_with_red_diamond.jpg";
 // import StarIcon from "../assets/star.png";
 import { Playfair_Display,Inter } from "next/font/google";
@@ -42,14 +42,15 @@ const OurStory = () => {
                 height={220}
                 className="rounded-md object-cover flex-shrink-0"
               />
-              <p className="text-lg md:text-base text-[#2E2B28CC] pt-4 lg:pt-2 text-center lg:text-left font-light">
-                Explore rare gemstones and heirloom jewelry designed to shine through generations.
+              <p className="text-md md:text-lg text-[#2E2B28CC] pt-4 lg:pt-2 text-center lg:text-left font-light mb-15">
+              True luxury lies in the details — in the precision of every cut, the brilliance of every gemstone and the craftsmanship behind each creation. At DIANO, we invite you to discover a world where refinement meets rarity and where every detail tells a story of elegance and excellence.
               </p>
             </div>
 
-            <p className="text-sm md:text-base text-[#2E2B28CC] font-300 mt-2 lg:pl-20 text-center lg:text-left font-light">
-              At DIANO, every piece begins with a story — of rare origin, masterful design, and conscious craftsmanship.
-              From curated private collections to timeless pieces, we bring meaningful luxury to life.
+            <p className="text-md md:text-lg text-[#2E2B28CC] font-300 mt-2 lg:pl-20 text-center lg:text-left font-light">
+            Each piece in our collection is a testament to this philosophy.
+            <br />
+            From rare, investment-grade diamonds to bespoke jewellery handcrafted for discerning tastes, DIANO is where artistry, ethics, and exclusivity converge. Step into a curated selection designed to captivate collectors, connoisseurs and creators alike.
             </p>
 
             <div className="mt-2 lg:pl-20 flex justify-center lg:justify-start">

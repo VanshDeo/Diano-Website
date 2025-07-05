@@ -20,12 +20,12 @@ const DianoApart = () => {
         {/* <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-238 left-5" />
         <Image src={StarIcon} alt="star" width={20} height={20} className="absolute top-330 left-150" /> */}
         {/* Info Section */}
-      <div className='px-15 py-15'>
-        <h1 className={`${playFair.className} text-5xl text-[#2E2B28] text-center lg:text-left`} style={{fontWeight: 400}}>What Sets DIANO Apart</h1>
-        <p className={`mt-6 ${openSans.className} font-light text-md text-[#2E2B28CC]`}>Rare Origins:<br />Sourced from the world&apos;s most exclusive mines.</p>
-        <p className={`mt-6 ${openSans.className} font-light text-md text-[#2E2B28CC]`}>AI-Enhanced Visuals:<br />See every facet in cinematic clarity.</p>
-        <p className={`mt-6 ${openSans.className} font-light text-md text-[#2E2B28CC]`}>Expertise-Driven Curation:<br />Handpicked by gemologists with generations of experience.</p>
-        <p className={`mt-6 ${openSans.className} font-light text-md text-[#2E2B28CC]`}>Exclusively B2B:<br />Crafted for designers, retailers, and collectors.</p>
+      <div className='flex flex-col px-15 py-15 mt-15 max-w-xl mx-auto items-center lg:items-start'>
+        <h1 className={`${playFair.className} text-5xl text-[#2E2B28] text-center lg:text-left lg:whitespace-nowrap`} style={{fontWeight: 400}}>What Sets DIANO Apart</h1>
+        <ul className={`list-disc ml-5 mt-10 ${openSans.className} font-light text-md lg:text-xl`}>
+          <li>A century-old legacy of curating the rarest gemstones with uncompromising integrity.</li>
+          <li className='mt-10'>Direct partnerships with ethical mines and master cutters in Antwerp, the heart of the diamond trade.</li>
+        </ul>
 
         <button className={`mt-10 ${openSans.className} h-10 text-white bg-[#D6C5A0] px-3 rounded-sm shadow-md hover:scale-105 active:scale-95 transition-all duration-300`}>Get a Free Valuation</button>
       </div>

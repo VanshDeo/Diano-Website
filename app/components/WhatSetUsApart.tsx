@@ -16,24 +16,28 @@ const inter = Inter({
 
 const features = [
   {
-    icon: <FiVideo size={24} className="text-[#D6C5A0]" />,
-    title: "AI SHOWCASE",
-    description: "Ultra-clear, lifelike gem previews",
+    
+    title: "SIGNATURE SHOWCASE",
+    description1: "A Closer Look at Perfection",
+    description2: "Experience the brilliance of our jewels through ultra-clear, high-definition showcases. See every facet, every detail — as if holding it in your hands.",
   },
   {
-    icon: <FiLock size={24} className="text-[#D6C5A0]" />,
+    
     title: "PRIVATE ACCESS",
-    description: "Exclusive collections, by invite only",
+    description1: "An Invitation to Exclusivity",
+    description2: "Our most rare and coveted pieces are available only by private appointment. Discover limited-edition collections reserved for an elite circle of collectors and connoisseurs.",
   },
   {
-    icon: <FiPenTool size={24} className="text-[#D6C5A0]" />,
+    
     title: "DESIGNER CHOICE",
-    description: "Trusted by top global creators",
+    description1: "The Jeweller\'s Jeweller",
+    description2: "Our gemstones and creations are handpicked by the world’s top designers and luxury houses — a trusted source for uncompromising quality and timeless inspiration.",
   },
   {
-    icon: <FiSettings size={24} className="text-[#D6C5A0]" />,
+    
     title: "CUSTOM MADE",
-    description: "Jewels made just for you",
+    description1: "Crafted Just for You",
+    description2: "Every piece is tailored to your vision — from selecting the perfect stone to bringing your bespoke design to life. DIANO turns your desires into enduring heirlooms.",
   },
 ];
 
@@ -61,13 +65,11 @@ const WhatSetsUsApart = () => {
           {features.slice(0, 2).map((feature, index) => (
             <div
               key={index}
-              className="bg-[#FDFBF6] rounded p-6 flex flex-col gap-2 flex-1 justify-center shadow-sm text-center md:text-left md:items-start items-center"
+              className="bg-[#FDFBF6] rounded p-6 flex flex-col gap-2 flex-1 justify-start shadow-sm text-center md:text-left md:items-start items-center"
             >
-              <div className="bg-white p-3 w-max rounded-full border border-[#D6C5A0]">
-                {feature.icon}
-              </div>
-              <h3 className="text-sm font-light text-[#2E2B28CC] mt-2">{feature.title}</h3>
-              <p className="text-sm text-[#2E2B28AD]">{feature.description}</p>
+              
+              <h3 className="text-base font-light text-[#2E2B28CC] mt-2 px-2 py-1 border border-[#D6C5A0] rounded-sm">{feature.title}</h3>
+              <p className="text-sm text-[#2E2B28AD]">{feature.description1} <br /> {feature.description2}</p>
             </div>
           ))}
         </div>
@@ -88,13 +90,11 @@ const WhatSetsUsApart = () => {
           {features.slice(2).map((feature, index) => (
             <div
               key={index}
-              className="bg-[#FDFBF6] rounded-xl p-6 flex flex-col gap-2 flex-1 justify-center shadow-sm text-center md:text-left md:items-start items-center"
+              className="bg-[#FDFBF6] rounded-xl p-6 flex flex-col gap-2 flex-1 justify-start shadow-sm text-center md:text-left md:items-start items-center"
             >
-              <div className="bg-white p-3 w-max rounded-full border border-[#D6C5A0]">
-                {feature.icon}
-              </div>
-              <h3 className="text-sm font-light mt-2 text-[#2E2B28CC]">{feature.title}</h3>
-              <p className="text-sm text-[#2E2B28AD]">{feature.description}</p>
+              
+              <h3 className="text-base font-light mt-2 text-[#2E2B28CC] px-2 py-1 border border-[#D6C5A0] rounded-sm">{feature.title}</h3>
+              <p className="text-sm text-[#2E2B28AD]">{feature.description1} <br /> {feature.description2}</p>
             </div>
           ))}
         </div>

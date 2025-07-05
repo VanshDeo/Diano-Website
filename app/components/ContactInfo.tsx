@@ -10,11 +10,16 @@ import {
 import RingImage from "../assets/rambus-ring.jpg"; // Replace with actual path
 import React from "react";
 // import StarIcon from "../assets/star.png";
-import { Playfair_Display } from "next/font/google";
+import { Playfair_Display,Inter } from "next/font/google";
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const ContactInfo = () => {
@@ -28,22 +33,22 @@ const ContactInfo = () => {
           <h2 className={`text-5xl font-normal text-[#2E2B28] mb-4 ${playFair.className}`}>
             Contact Information
           </h2>
-          <p className="text-gray-600 font-light text-sm mb-8 max-w-md">
+          <p className="text-[#2E2B28CC] font-light text-md mb-8 max-w-md">
             Visit our private studio or schedule a digital consultation. Our
             specialists are here to assist with gemstone selection,
             customization, and personal styling.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-            <div>
-              <h4 className="text-sm font-normal text-[#333] mb-1">Location</h4>
+            <div className={`${inter.className}`}>
+              <h4 className="text-sm font-normal text-[#2E2B28] mb-1">Location</h4>
               <p className="text-sm text-[#2E2B28]">
                 123, [Street Name], [City], [State],<br />
                 [PIN Code]
               </p>
             </div>
-            <div>
-              <h4 className="text-sm font-normal text-[#333] mb-1">Studio Hours</h4>
+            <div className={`${inter.className}`}>
+              <h4 className="text-sm font-normal text-[#2E2B28] mb-1">Studio Hours</h4>
               <p className="text-sm text-[#2E2B28]">
                 Mon–Sat: 10AM – 7PM<br />
                 Sunday: Closed
@@ -55,7 +60,7 @@ const ContactInfo = () => {
 
           {/* Social Icons */}
           <div className="flex items-center space-x-4 mt-4">
-            <span className="text-sm font-serif text-[#2E2B28]">Follow Us</span>
+            <span className={`text-sm font-serif text-[#2E2B28] ${inter.className}`}>Follow Us</span>
             <div className="flex space-x-3 text-[#999999]">
               {[FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter].map(
                 (Icon, index) => (

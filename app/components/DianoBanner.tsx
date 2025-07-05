@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 // import StarIcon from "../assets/star.png";
 import RingImage from "../assets/red-hand-ring.png"; // Ensure this path is correct
-import { Playfair_Display,Inter } from "next/font/google";
+import { Playfair_Display,Inter,Open_Sans } from "next/font/google";
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
@@ -15,6 +15,11 @@ const inter = Inter({
     subsets: ["latin"],
     weight: ["300", "400", "500", "600", "700"],
 })
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
 
 const DianoBanner = () => {
   return (
@@ -28,12 +33,12 @@ const DianoBanner = () => {
         <h2 className={`text-3xl md:text-5xl font-normal text-[#2E2B28] mb-6 leading-snug ${playFair.className}`}>
           Experience the DIANO<br className="hidden md:block" /> Difference
         </h2>
-        <p className={`text-base text-[#2E2B28CC] mb-8 leading-relaxed md:pl-6 md:pr-6 ${inter.className}`}>
+        <p className={`text-lg text-[#2E2B28CC] mb-8 leading-relaxed md:pl-6 md:pr-6 font-light ${inter.className}`}>
           Step into a world of rare gems and refined craftsmanship. Schedule your
           private session or explore our curated collection.
         </p>
-        <button className="px-6 py-2 border border-[#2E2B28] text-sm hover:bg-[#2E2B28] hover:text-white transition">
-          Explore the Collection
+        <button className={`px-6 py-2 border border-[#2E2B28] text-sm text-[#2E2B28] hover:bg-[#2E2B28] hover:text-white transition ${openSans.className}`}>
+          Contact Us
         </button>
       </div>
     </div>

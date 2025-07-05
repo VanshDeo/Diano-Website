@@ -24,9 +24,9 @@ const Commitment = () => {
       {/* Info Section */}
       <div className='max-w-xl mx-auto mt-20 text-center md:text-left'>
         <h1 className={`${playFair.className} text-[#2E2B28] text-5xl text-center md:text-left`}>A Commitment to Craft and Consciousness</h1>
-        <p className={`${mulish.className} text-lg text-[#2E2B28CC] font-light mt-8 mb-8 text-center md:text-left`}>Each DIANO piece is ethically sourced, responsibly cut, and meticulously finished. From mine to masterpiece, our process is transparent and thoughtful.</p>
+        <p className={`${mulish.className} text-xl text-[#2E2B28CC] font-light mt-8 mb-8 text-center md:text-left`}>Every gem is ethically sourced, every piece expertly curated — designed not just to reflect beauty, but to transcend trends and time. At DIANO, we craft jewellery that speaks to legacy, sophistication, and enduring value.</p>
 
-        <Link href="/" className='underline'>Learn More About Our Process</Link>
+        <Link href="/" className='underline text-[#2E2B28]'>Get in Touch With Us</Link>
       </div>
 
       {/* Image Section */}
