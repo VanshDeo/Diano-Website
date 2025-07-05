@@ -30,7 +30,7 @@ const HeroSection = () => {
          alt="Gem 1"
             width={300}
             height={300}
-            className='rounded-tl-[60px] overflow-hidden lg:w-170 lg:h-60 object-cover'
+            className='rounded-tl-[60px] overflow-hidden lg:w-210 lg:h-60 object-cover'
         />
         </div>
 
@@ -40,7 +40,7 @@ const HeroSection = () => {
          alt="Gem 2"
             width={300}
             height={300}
-            className='rounded-br-[60px] overflow-hidden lg:w-170 lg:h-60 object-cover'
+            className='rounded-br-[60px] overflow-hidden lg:w-200 lg:h-60 object-cover'
         />
         </div>
 
@@ -48,9 +48,9 @@ const HeroSection = () => {
             <h1 className={`${playFair.className} text-5xl text-[#2E2B28E8] whitespace-nowrap`} style={{fontWeight: 400}}>Rare Gems.</h1>
         </div>
 
-        <div className="relative lg:right-60 lg:top-35 flex flex-col items-center text-center lg:text-left max-w-6xl mt-10">
+        <div className="relative lg:right-60 lg:top-35 flex flex-col items-center text-center lg:text-left mt-10">
         <p className={`${playFair.className} text-5xl text-[#2E2B28E8]`} style={{ fontWeight: 400 }}>Unseen Beauty.</p>
-        <p className={`${openSans.className} text-md lg:text-lg text-[#2E2B28CC] font-light mt-6 mb-8`}>
+        <p className={`${openSans.className} text-md lg:text-lg text-[#2E2B28CC] font-light mt-10 mb-8`}>
           Discover DIANO&apos;s exclusive collection of rare gemstones and elite jewellery — meticulously curated for connoisseurs, collectors and luxury design houses. Experience timeless elegance and unmatched craftsmanship in every piece.
         </p>
         <button className={`bg-[#D6C5A0] px-5 py-2 rounded-sm shadow-lg text-white cursor-pointer hover:scale-105 active:scale-95 transition-all duration-300`}>
